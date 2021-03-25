@@ -1,11 +1,21 @@
-const express = require("express");
-const app = express();
-const PORT = 8080;
-const http = require("http");
-const server = http.Server(app);
+var express = require('express');
+var app = express();
 
-app.use(express.static("client"));
+var http = require('http');
+var server = http.Server(app);
 
-server.listen(PORT, function () {
-  console.log(`Our Chat server running on port ${PORT}`);
+app.use(express.static('client'));
+
+var io = require('socket.io')(server);
+
+io.on('connection', function (socket) {
+  socket.on('message', function (msg) {
+    io.emit('message', msg);
+  });
 });
+
+server.listen(8080, function() {
+  console.log('Chat server running');
+});
+
+
