@@ -1,12 +1,16 @@
-var socket = io();
+const socket = io();
 
-$('form').submit(function () {
-  var text = $('#message').val();
-  socket.emit('message', text);
-  $('#message').val('');
+$("form").submit(function () {
+
+  const messageText = $("#message").val();
+  socket.emit("message", messageText);
+  $("#message").val("");
+
   return false;
 });
 
-socket.on('message', function (msg) {
-  $('<li>').text(msg).appendTo('#history');
+socket.on("message", function (msg) {
+  console.log("message",msg)
+  $("<li>").text(msg).appendTo("#history");
 });
+
