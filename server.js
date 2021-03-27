@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const PORT = 8080
 
 const http = require("http");
 const server = http.Server(app);
@@ -14,6 +15,6 @@ io.on("connection", function (socket) {
   });
 });
 
-server.listen(8080, function () {
-  console.log("Chat server running");
+server.listen(PORT, function () {
+  console.log(`Chat server is running on ${PORT}`);
 });
