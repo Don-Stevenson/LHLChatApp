@@ -19,4 +19,5 @@
 ### screen shot 
 
 - the chat client looks like
-['screen shot']('link')
+
+![screen shot](https://github.com/Don-Stevenson/LHLChatApp/blob/master/docs/Chat%20client%20screen%20shot.png)
