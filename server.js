@@ -1,12 +1,14 @@
 // requirements and setup the app and the port
 const express = require("express");
-const io = require("socket.io")(server);
+
 const app = express();
 const PORT = 8080;
 
 // server setup
 const http = require("http");
 const server = http.Server(app);
+const io = require("socket.io")(server);
+
 
 // configuring the express server
 app.use(express.static("client"));
