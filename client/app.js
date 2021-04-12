@@ -1,7 +1,7 @@
 // defining socket as a call of the io function
 const socket = io();
 
-// jquery call to the form to submit the message value
+// jquery and socket io call to the form to submit the message value
 $("form").submit(function () {
 
   const messageText = $("#message").val();
