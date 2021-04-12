@@ -9,7 +9,9 @@
 
 - ```npm server.js``` to run
 
-- note that none of the stretch has been completed
+- go to ```localhost:8080``` in your browser 
+
+- *note that none of the stretch has been completed*
 
 ### dependencies
 
