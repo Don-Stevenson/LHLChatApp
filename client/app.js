@@ -11,7 +11,7 @@ $("form").submit(function () {
   return false;
 });
 
-// renders the message on the pages history with a new line
+// renders the new message on the pages #history within a new line
 socket.on("message", function (msg) {
   console.log("message",msg)
   $("<li>").text(msg).appendTo("#history");
