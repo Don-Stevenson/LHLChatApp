@@ -1,42 +1,47 @@
+/* styling of the page */
 
 li {
-    padding: 10px;
-  }
-  
-  li:nth-child(odd) {
-    background-color: #e3e3e3;
-    border-radius: 6px;
-  }
-  
-  form {
-    background-color: lightsteelblue;
-    border-radius: 6px;
-    margin: 0;
-    padding: 10px;
-  }
-  
-  button {
-    background-color: cornflowerblue;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 5px 10px;
-    text-transform: uppercase;
-  }
-  
-  input {
-    border: none;
-    border-radius: 3px;
-    font-size: 15px;
-    padding: 5px;
-  }
-  
-  #initials {
-    width: 40px;
-  }
-  
-  #message {
-    width: 315px;
-  }
+  padding: 10px;
+}
+
+/* styling the odd list items */
+li:nth-child(odd) {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+}
+/* form styling */
+ form {
+  background-color: lightsteelblue;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+}
+/* button styling */
+button {
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+/* input box for text styling */
+input {
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/* initials box styling */
+#initials {
+  width: 40px;
+}
+
+/* message box styling */
+#message {
+  width: 315px;
+}
