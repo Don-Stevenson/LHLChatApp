@@ -8,7 +8,7 @@
 
 - use `npm install` to install all the dependencies
 
-- use`npm server.js` or `npm start` to run
+- use`node server.js` or `npm start` to run
 
 - go to `localhost:8080` in your browser
 
