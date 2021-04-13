@@ -16,6 +16,7 @@ li:nth-child(odd) {
   margin: 0;
   padding: 10px;
 }
+
 /* button styling */
 button {
   background-color: cornflowerblue;
