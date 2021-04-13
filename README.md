@@ -3,22 +3,23 @@
 - LHL tutorial link here https://bit.ly/30O438v
 
 ### set up
+
 - fork and clone this repo
 
-- use ```npm install``` to install all the dependencies
+- use `npm install` to install all the dependencies
 
-- ```npm server.js``` to run
+- `npm start` to run
 
-- go to ```localhost:8080``` in your browser 
+- go to `localhost:8080` in your browser
 
-- *note that none of the stretch has been completed*
+- _note that none of the stretch has been completed_
 
 ### dependencies
 
 - express 4.17.1 or greater
 - socket.io 4.0.0 or greater
 
-### screen shot 
+### screen shot
 
 - the chat client looks like
 
