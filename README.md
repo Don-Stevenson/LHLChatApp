@@ -1,6 +1,6 @@
 # A place to try out LHL's Chat App
 
-- LHL tutorial link here https://bit.ly/30O438v
+- LHL tutorial here https://bit.ly/30O438v
 
 ### set up
 
@@ -8,7 +8,7 @@
 
 - use `npm install` to install all the dependencies
 
-- `npm start` to run
+- use`npm server.js` or `npm start` to run
 
 - go to `localhost:8080` in your browser
 
