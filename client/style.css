@@ -9,6 +9,7 @@ li:nth-child(odd) {
   background-color: #e3e3e3;
   border-radius: 6px;
 }
+
 /* form styling */
  form {
   background-color: lightsteelblue;
